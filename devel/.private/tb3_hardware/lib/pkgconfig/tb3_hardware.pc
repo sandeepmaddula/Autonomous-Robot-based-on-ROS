@@ -1,0 +1,8 @@
+prefix=/home/sai/tb3_ws_sai/devel/.private/tb3_hardware
+
+Name: tb3_hardware
+Description: Description of tb3_hardware
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/sai/tb3_ws_sai/devel/.private/tb3_hardware/lib 
+Requires: 

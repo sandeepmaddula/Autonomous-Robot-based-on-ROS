@@ -1,0 +1,7 @@
+<launch>    
+    <!-- can be used as top level launch files by adding all required launch files below -->
+    <include file="$(find tb3_bringup)/launch/turtlebot3_core.launch"/>
+
+    <!-- use the default diagnostics node -->
+    <node pkg="turtlebot3_bringup" type="turtlebot3_diagnostics" name="turtlebot3_diagnostics" output="screen"/>
+</launch>

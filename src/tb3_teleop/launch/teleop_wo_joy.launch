@@ -1,0 +1,5 @@
+<launch>    
+    <include file="$(find tb3_bringup)/launch/turtlebot3_robot.launch"/>
+
+    <node pkg="tb3_teleop" type="teleop.py" name="teleop" output="screen"/>
+</launch>

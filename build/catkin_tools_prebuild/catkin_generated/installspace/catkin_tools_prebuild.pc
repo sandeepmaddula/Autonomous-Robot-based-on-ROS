@@ -1,0 +1,8 @@
+prefix=/home/sai/rossummerschool2019_ws/install
+
+Name: catkin_tools_prebuild
+Description: Description of catkin_tools_prebuild
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/sai/rossummerschool2019_ws/install/lib 
+Requires: 

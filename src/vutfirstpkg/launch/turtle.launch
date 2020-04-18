@@ -1,0 +1,9 @@
+<launch>
+     <node name="turtleviz" pkg="maskor_turtlesim" type="maskor_turtlesim_node" output="screen" >
+          <param name="/background_r" value="255" />
+          <param name="/background_g" value="105" />
+          <param name="/background_b" value="180" />
+     </node>
+     <node name="turtlekeys" pkg="maskor_turtlesim" type="maskor_turtle_teleop_key" output="screen" />
+     <node name="our" pkg="vutfirstpkg" type="vutfirstnode.py" output="screen" />
+</launch>

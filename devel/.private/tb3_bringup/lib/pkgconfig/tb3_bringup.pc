@@ -1,0 +1,8 @@
+prefix=/home/sai/tb3_ws_sai/devel/.private/tb3_bringup
+
+Name: tb3_bringup
+Description: Description of tb3_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/sai/tb3_ws_sai/devel/.private/tb3_bringup/lib 
+Requires: 

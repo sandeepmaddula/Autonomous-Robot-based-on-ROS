@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sai/tb3_ws_sai/devel/.private/tb3_teleop/setup.sh

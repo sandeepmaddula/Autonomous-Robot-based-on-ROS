@@ -1,0 +1,8 @@
+prefix=/home/sai/tb3_ws_sai/devel/.private/rospy_tutorials
+
+Name: rospy_tutorials
+Description: Description of rospy_tutorials
+Version: 0.7.1
+Cflags: -I/home/sai/tb3_ws_sai/devel/.private/rospy_tutorials/include
+Libs: -L/home/sai/tb3_ws_sai/devel/.private/rospy_tutorials/lib 
+Requires: message_runtime std_msgs

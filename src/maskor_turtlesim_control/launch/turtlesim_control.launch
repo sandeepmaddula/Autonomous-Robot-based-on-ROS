@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+
+<launch>
+
+
+  <node name="keyboard_cmds" pkg="maskor_turtlesim_control" type="keyboard_cmds" output="screen"/>
+
+  <node name="keyboard_control" pkg="maskor_turtlesim_control" type="keyboard_control.py" output="screen">
+
+    <param name = "cmd_vel_topic" value = "/turtle1/cmd_vel" />
+    <param name = "key_cmd_topic" value = "/keyboard_cmd" />
+    <param name = "speed_scaling" value = "1" />
+
+  </node>
+
+</launch>
+

@@ -1,0 +1,5 @@
+<launch>
+     <node name="hello" pkg="hello_world" type="hello_world.py" output="screen" />
+     <param name="/freq" value="1" />
+     <param name="/text" value="You Rock!" />     
+</launch>

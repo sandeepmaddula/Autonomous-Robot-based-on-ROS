@@ -1,0 +1,12 @@
+Symlinking /home/sai/tb3_ws_sai/devel/./_setup_util.py
+Symlinking /home/sai/tb3_ws_sai/devel/./setup.bash
+Symlinking /home/sai/tb3_ws_sai/devel/./local_setup.bash
+Symlinking /home/sai/tb3_ws_sai/devel/./local_setup.sh
+Symlinking /home/sai/tb3_ws_sai/devel/./setup.zsh
+Symlinking /home/sai/tb3_ws_sai/devel/./env.sh
+Symlinking /home/sai/tb3_ws_sai/devel/./cmake.lock
+Symlinking /home/sai/tb3_ws_sai/devel/./setup.sh
+Symlinking /home/sai/tb3_ws_sai/devel/./local_setup.zsh
+Symlinking /home/sai/tb3_ws_sai/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/sai/tb3_ws_sai/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/sai/tb3_ws_sai/devel/lib/pkgconfig/catkin_tools_prebuild.pc

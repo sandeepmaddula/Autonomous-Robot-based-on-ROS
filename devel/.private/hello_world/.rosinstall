@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sai/tb3_ws_sai/devel/.private/hello_world/setup.sh

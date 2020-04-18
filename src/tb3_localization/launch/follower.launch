@@ -1,0 +1,17 @@
+<launch>    
+    <include file="$(find tb3_localization)/launch/webcam.launch"/>
+    <include file="$(find tb3_localization)/launch/track.launch"/>
+    <include file="$(find tb3_description)/launch/turtlebot3_model.launch"/>
+    <include file="$(find tb3_bringup)/launch/turtlebot3_robot.launch"/>
+
+    <node pkg="tb3_localization" type="follower.py" name="follower" output="screen">
+        <param name="/desired_dist" value="1.5" />
+        <param name="/dist_deadzone" value="0.1" />
+        <param name="/dist_sat" value="0.5" />
+        <param name="/max_speed" value="0.25" />
+        <param name="/angle_deadzone" value="1.0" />
+        <param name="/angle_sat" value="10.0" />
+        <param name="/eps_min" value="0.5" />
+        <param name="/eps_sat" value="7.0" />
+    </node>
+</launch>

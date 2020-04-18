@@ -1,0 +1,8 @@
+prefix=/home/sai/tb3_ws_sai/devel/.private/roscpp_tutorials
+
+Name: roscpp_tutorials
+Description: Description of roscpp_tutorials
+Version: 0.7.1
+Cflags: -I/home/sai/tb3_ws_sai/devel/.private/roscpp_tutorials/include
+Libs: -L/home/sai/tb3_ws_sai/devel/.private/roscpp_tutorials/lib 
+Requires: message_runtime std_msgs

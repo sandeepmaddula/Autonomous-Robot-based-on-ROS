@@ -1,0 +1,8 @@
+prefix=/home/sai/tb3_ws_sai/devel/.private/turtlesim
+
+Name: turtlesim
+Description: Description of turtlesim
+Version: 0.7.1
+Cflags: -I/home/sai/tb3_ws_sai/devel/.private/turtlesim/include
+Libs: -L/home/sai/tb3_ws_sai/devel/.private/turtlesim/lib 
+Requires: geometry_msgs message_runtime std_msgs std_srvs

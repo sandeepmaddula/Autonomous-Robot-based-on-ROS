@@ -1,0 +1,8 @@
+<launch> 
+    <arg name="town" default="townA"/>
+
+    <node name="goal_client" pkg="tb3_navigation" type="goal_client.py" output="screen">
+        <param name="town" value="$(arg town)" />
+    </node>
+    <!--<node name="generator" pkg="challenge" type="random_goal_list_generator.py" output="screen" />-->
+</launch>

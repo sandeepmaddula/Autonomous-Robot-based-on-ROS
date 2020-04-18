@@ -1,0 +1,9 @@
+<launch>    
+    <include file="$(find tb3_bringup)/launch/turtlebot3_robot.launch"/>
+    <include file="$(find tb3_description)/launch/turtlebot3_model.launch"/>
+    <include file="$(find tb3_hardware)/launch/rplidar.launch"/>
+    <node pkg="tb3_teleop" type="teleop.py" name="teleop" output="screen"/>
+    <include file="$(find tb3_localization)/launch/amcl.launch"/>
+    <include file="$(find tb3_localization)/launch/map.launch"/>
+    <include file="$(find tb3_localization)/launch/webcam.launch"/>
+</launch>

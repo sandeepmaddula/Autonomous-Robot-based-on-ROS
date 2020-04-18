@@ -1,0 +1,8 @@
+prefix=/home/sai/tb3_ws_sai/devel/.private/tb3_localization
+
+Name: tb3_localization
+Description: Description of tb3_localization
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/sai/tb3_ws_sai/devel/.private/tb3_localization/lib 
+Requires: 
